@@ -35,5 +35,4 @@ Route::view('/buy','buy.index');
 Route::view('/buy/product','rent.form');
 Route::view('/product','buy.product');
 
-Route::view('/gfdgdfggggd','rent.form');
 
