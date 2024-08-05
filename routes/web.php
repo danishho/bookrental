@@ -1,6 +1,7 @@
 <?php
 
 
+
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\UserRegisteredController;
@@ -34,5 +35,5 @@ Route::view('/cart','cart.index');
 Route::view('/buy','buy.index');
 Route::view('/buy/product','buy.form');
 Route::view('/product','buy.product');
-
+Route::view('/product/create','buy.sell-form');
 
