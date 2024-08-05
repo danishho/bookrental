@@ -32,7 +32,7 @@ Route::view('/dcs/rent', 'rent.form');
 Route::view('/cart','cart.index');
 
 Route::view('/buy','buy.index');
-Route::view('/buy/product','rent.form');
+Route::view('/buy/product','buy.form');
 Route::view('/product','buy.product');
 
 
