@@ -20,7 +20,7 @@
         <div class="overflow-x-auto">
             <div class="inline-block min-w-full align-middle">
                 <div class="overflow-hidden shadow">
-                    <table class="w-full h-auto min-w-full divide-y divide-gray-200 table-fixed ">
+                    <table class="min-w-full divide-y divide-gray-200 table-fixed">
                         <thead class="bg-gray-100">
                         <tr>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
@@ -68,6 +68,9 @@
                             <td class="p-4 space-x-2 whitespace-nowrap">
                                 <button type="button"  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-500 rounded-lg hover:bg-green-600 ">
                                     Approve
+                                </button>
+                                <button type="button"  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-600 rounded-lg hover:bg-red-700 ">
+                                    Reject
                                 </button>
                             </td>
                         </tr>

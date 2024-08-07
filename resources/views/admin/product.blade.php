@@ -2,7 +2,7 @@
     <div class="p-4 bg-white block sm:flex items-center justify-between border-b border-gray-200 lg:mt-1.5">
         <div class="w-full mb-1">
             <div class="mb-4">
-                <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl ">All Book</h1>
+                <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl ">All Product</h1>
             </div>
             <div class="items-center justify-between block sm:flex md:divide-x md:divide-gray-100 ">
                 <div class="flex items-center mb-4 sm:mb-0">
@@ -20,7 +20,7 @@
         <div class="overflow-x-auto">
             <div class="inline-block min-w-full align-middle">
                 <div class="overflow-hidden shadow">
-                    <table class="w-full h-auto min-w-full divide-y divide-gray-200 table-fixed ">
+                    <table class="min-w-full divide-y divide-gray-200 table-fixed">
                         <thead class="bg-gray-100">
                         <tr>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">

@@ -13,7 +13,7 @@ class SellerCenterController extends Controller
         $user = Auth::user();
 
         if ($user->bank_number && $user->bank_type) {
-            return redirect('seller/home');
+            return redirect('/seller');
         } else {
             return redirect('/bank');
         }

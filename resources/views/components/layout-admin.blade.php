@@ -40,35 +40,44 @@
             </li>
             <li>
                 <a href="/admin/rent" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
-                    <x-logo src="{{asset('logos/rentbook.svg')}}" width="25"  class="rounded-none"/>
+                    <x-logo src="{{asset('logos/rentbook.svg')}}" width="30"  class="rounded-none"/>
                     <span class="flex-1 ms-3 whitespace-nowrap">Rent</span>
                     <span class="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full">3</span>
                 </a>
             </li>
             <li>
                 <a href="/admin/product" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100  group">
-                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
-                        <path d="M15 5h-3V3a3 3 0 0 0-6 0v2H3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3ZM8 3a1 1 0 0 1 2 0v2H8V3Zm9 14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3v1a1 1 0 0 0 2 0V7h4v1a1 1 0 0 0 2 0V7h3a1 1 0 0 1 1 1v9Z"/>
-                    </svg>
+                    <x-logo src="{{asset('logos/product.svg')}}" width="30"  class="rounded-none"/>
                     <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group">
-                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                        <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"/>
-                    </svg>
+                <a href="/admin/payment" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100  group">
+                    <x-logo src="{{asset('logos/payment.svg')}}" width="30"  class="rounded-none"/>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Payment</span>
+                </a>
+            </li>
+            <li>
+                <a href="/admin/user" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group">
+                    <x-logo src="{{asset('logos/user.svg')}}" width="30"  class="rounded-none"/>
                     <span class="flex-1 ms-3 whitespace-nowrap">Users</span>
                 </a>
             </li>
 
             <li>
-                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group">
-                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                        <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"/>
-                    </svg>
-                    <span class="flex-1 ms-3 whitespace-nowrap">Logout</span>
-                </a>
+                <x-forms.form method="POST" action="/logout">
+                    <div class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-red-500 hover:text-white  group">
+                        <x-logo src="{{asset('logos/logout.svg')}}" width="30"  class="rounded-none"/>
+                        <span>
+                            <button type="submit" class="flex-1 ms-3 whitespace-nowrap">
+                                Logout
+                            </button>
+                        </span>
+                    </div>
+
+
+                </x-forms.form>
+
             </li>
         </ul>
     </div>
