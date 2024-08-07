@@ -1,0 +1,4 @@
+<x-layout-admin>
+    <x-slot:heading>Dashboard</x-slot:heading>
+
+</x-layout-admin>

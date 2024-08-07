@@ -1,12 +1,12 @@
 <x-guest-layout>
     <x-logo class="block mx-auto" width="450"></x-logo>
-    <form method="POST" action="/login">
+    <form method="POST" action="{{route('login')}}">
         @csrf
 
         <!-- Email Address -->
         <div class="mt-4">
             <x-input-label for="email" value="Email" />
-            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="email" />
             <x-input-error name="email"></x-input-error>
         </div>
 
@@ -36,11 +36,17 @@
 {{--                    Forgot your password?--}}
 {{--                </a>--}}
 {{--            @endif--}}
+            <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none" href="/register">
+                Dont Have Account?
+            </a>
+
 
             <x-primary-button class="ms-3 mt-1">
                 Log in
             </x-primary-button>
         </div>
+
+
 
     </form>
 </x-guest-layout>

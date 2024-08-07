@@ -5,15 +5,15 @@
         <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset('images/banner.svg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('images/ad2.jpg')}}" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset('images/banner3.svg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('images/ad3.jpg')}}" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset('images/banner3.svg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('images/ads1.jpg')}}" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -37,8 +37,8 @@
         </button>
     </div>
     <!-- Ads Container -->
-    <div class="w-full lg:w-1/3 space-y-4">
-        <img src="{{asset('images/banner.svg')}}" alt="Ad 1" class="w-full h-auto">
-        <img src="{{asset('images/banner3.svg')}}" alt="Ad 2" class="w-full h-auto">
+    <div class="w-full lg:w-1/3 space-y-2">
+        <img src="{{asset('images/ads1.jpg')}}" alt="Ad 1" class="w-full h-auto">
+        <img src="{{asset('images/ad3.jpg')}}" alt="Ad 2" class="w-full h-auto">
     </div>
 </div>

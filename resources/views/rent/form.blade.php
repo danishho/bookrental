@@ -22,7 +22,7 @@
             <!-- PHOTO -->
             <div class="mt-4">
                 <p class="block font-medium text-sm text-gray-700"> QR Payment</p>
-                <x-logo src="{{asset('images/banner.svg')}}" width="400" alt="fmdkpgm"/>
+                <x-logo src="{{asset('images/qr.jpg')}}" width="400" alt="fmdkpgm"/>
             </div>
 
             <!-- Email Address -->
