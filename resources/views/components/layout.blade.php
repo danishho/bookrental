@@ -28,7 +28,7 @@
                         <x-nav-link href="/rent" :active="request()->is('rent')">Rent</x-nav-link>
                         <x-nav-link href="/buy" :active="request()->is('buy')">Buy</x-nav-link>
                         <x-nav-link href="/seller_center" :active="request()->is('seller_center')">Seller Center</x-nav-link>
-                        <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
+                        <x-nav-link href="/order" :active="request()->is('order')">Order History</x-nav-link>
                     </div>
                 </div>
                 <div class="hidden md:flex space-x-4 items-center">
@@ -72,6 +72,8 @@
 {{--        @endif--}}
     </main>
 </div>
+
+<x-footer></x-footer>
 <script src="//unpkg.com/alpinejs" defer></script>
 
 </body>

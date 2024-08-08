@@ -19,7 +19,7 @@ class UserRegisteredController extends Controller
     {
         //validate
         $validatedAttributes=request() -> validate([
-            'name' => ['required'],
+            'username' => ['required','max:30'],
             'email' => ['required', 'email', 'max:254', 'unique:users,email'],
             'password' => ['required', Password::min(6), 'confirmed'],//confirm will look at password_conformation so must like that format
 

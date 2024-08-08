@@ -37,7 +37,7 @@ class SellerCenterController extends Controller
         $user->save();
 
 
-        return redirect('/');
+        return redirect('/seller_center');
     }
 
     public function showSellerCenterPage()

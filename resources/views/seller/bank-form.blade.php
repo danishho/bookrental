@@ -8,14 +8,14 @@
             <!-- Bank info -->
             <div>
                 <x-input-label for="Bank Account No" value="bank no" />
-                <x-text-input id="bank_number" class="block mt-1 w-full" type="text" name="bank_number" :value="old('bank_no')" required autofocus autocomplete="name" />
+                <x-text-input id="bank_number" class="block mt-1 w-full" type="text" name="bank_number" :value="old('bank_no')"  />
                 <x-input-error name="bank_number"></x-input-error>
             </div>
 
             <!-- Bank typer-->
             <div class="mt-4">
                 <x-input-label for="Bank Type" value="bank type" />
-                <x-text-input id="bank_type" class="block mt-1 w-full" type="text" name="bank_type" :value="old('bank_type')" required autocomplete="username" />
+                <x-text-input id="bank_type" class="block mt-1 w-full" type="text" name="bank_type" :value="old('bank_type')"  />
                 <x-input-error name="email"></x-input-error>
             </div>
 

@@ -2,13 +2,13 @@
     <x-slot:heading>Rental Form</x-slot:heading>
     <div class="bg-blue-300 w-full max-w-lg mx-auto py-10 px-6 flex flex-col items-center rounded-md">
         <x-page-heading>customer details</x-page-heading>
-        <form method="POST" action="/rent">
+        <form method="POST" action="#">
             @csrf
 
             <!-- Name -->
             <div>
                 <x-input-label for="name" value="Name" />
-                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="username" />
                 <x-input-error name="name"></x-input-error>
             </div>
 
@@ -33,11 +33,13 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <x-primary-button class="ms-4 bg-green-600">
+                <x-primary-button type="submit" class="ms-4 bg-green-600" data-modal-target="popup-modal" data-modal-toggle="popup-modal">
                     Submit
                 </x-primary-button>
+                <x-modal.rent/>
             </div>
         </form>
     </div>
+
 
 </x-layout>

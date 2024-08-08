@@ -5,9 +5,9 @@
 
         <!-- Name -->
         <div>
-            <x-input-label for="name" value="Name" />
-            <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="username" />
-            <x-input-error name="name"></x-input-error>
+            <x-input-label for="name" value="Username" />
+            <x-text-input id="username" class="block mt-1 w-full" type="text" name="username" :value="old('username')"  placeholder="Max 12 characters include space" required autofocus autocomplete="username" />
+            <x-input-error name="username"></x-input-error>
         </div>
 
         <!-- Email Address -->
