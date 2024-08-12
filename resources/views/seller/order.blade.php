@@ -30,9 +30,6 @@
                                 quantity
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                Delivery method
-                            </th>
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 date
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
@@ -55,9 +52,6 @@
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">1</div>
-                            </td>
-                            <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <div class="text-base font-semibold text-gray-900 ">COD</div>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">12/3/2034</div>

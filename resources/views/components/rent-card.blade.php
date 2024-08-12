@@ -5,39 +5,39 @@
         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             <div class="group">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 relative">
-                    <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    <img src="{{asset("images/book1.jpg")}}" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
                     <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <x-primary-button href="/dcs/rent">Rent Now</x-primary-button>
+                        <x-primary-button href="/dcs/rent" class="bg-orange-400 hover:bg-orange-600">Rent Now</x-primary-button>
                     </div>
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
+                <h3 class="mt-4 text-sm text-gray-700">Module 1</h3>
             </div>
             <div class="group">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 relative">
-                    <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    <img src="{{asset("images/book2.jpg")}}" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="h-full w-full object-cover object-center group-hover:opacity-75">
                     <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <x-primary-button href="/dcs/rent">Rent Now</x-primary-button>
+                        <x-primary-button href="/dcs/rent" class="bg-orange-400 hover:bg-orange-600">Rent Now</x-primary-button>
                     </div>
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
+                <h3 class="mt-4 text-sm text-gray-700">KPMIM Book</h3>
             </div>
             <div class="group">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 relative">
-                    <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    <img src="{{asset("images/book3.jpg")}}" alt="Person using a pen to cross a task off a productivity paper card." class="h-full w-full object-cover object-center group-hover:opacity-75">
                     <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <x-primary-button href="/dcs/rent">Rent Now</x-primary-button>
+                        <x-primary-button href="/dcs/rent" class="bg-orange-400 hover:bg-orange-600">Rent Now</x-primary-button>
                     </div>
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
+                <h3 class="mt-4 text-sm text-gray-700">Module 1</h3>
             </div>
             <div class="group">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 relative">
-                    <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    <img src="{{asset("images/book4.jpg")}}" alt="Hand holding black machined steel mechanical pencil with brass tip and top." class="h-full w-full object-cover object-center group-hover:opacity-75">
                     <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <x-primary-button href="/dcs/rent">Rent Now</x-primary-button>
+                        <x-primary-button href="/dcs/rent" class="bg-orange-400 hover:bg-orange-600">Rent Now</x-primary-button>
                     </div>
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
+                <h3 class="mt-4 text-sm text-gray-700">KPMIM Book</h3>
             </div>
             <!-- More products... -->
         </div>

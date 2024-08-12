@@ -1,9 +1,9 @@
 <x-layout>
-     <x-slot:heading>Order History</x-slot:heading>
+    <x-slot:heading>Order History</x-slot:heading>
     <div class="p-4 bg-white block sm:flex items-center justify-between border-b border-gray-200 lg:mt-1.5">
         <div class="w-full mb-1">
             <div class="mb-4">
-                <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl ">All Product</h1>
+                <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl ">All Books</h1>
             </div>
             <div class="items-center justify-between block sm:flex md:divide-x md:divide-gray-100 ">
                 <div class="flex items-center mb-4 sm:mb-0">
@@ -17,6 +17,20 @@
             </div>
         </div>
     </div>
+    <div class="container mx-auto mt-1 px-4 sm:px-6 lg:px-8 bg-white shadow">
+        <div class="flex justify-start h-16 items-center">
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                <x-nav-link href="/order/index" :active="request()->is('/order/index')">
+                    Books
+                </x-nav-link>
+                <x-nav-link href="/order/product" :active="request()->is('/order/product')">
+                    Products
+                </x-nav-link>
+            </div>
+        </div>
+    </div>
+
+
     <div class="flex flex-col mt-2">
         <div class="overflow-x-auto">
             <div class="inline-block min-w-full align-middle">
@@ -25,13 +39,10 @@
                         <thead class="bg-gray-200 ">
                         <tr>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                product Picture
+                                Book Picture
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                product name
-                            </th>
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                quantity
+                                Book title
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 status
@@ -55,9 +66,6 @@
                                 </a>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <div class="text-base font-semibold text-gray-900 ">1</div>
-                            </td>
-                            <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">Pending</div>
                             </td>
                             <td class="p-4 space-x-2 whitespace-nowrap">
@@ -75,4 +83,5 @@
             </div>
         </div>
     </div>
+
 </x-layout>

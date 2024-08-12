@@ -149,6 +149,12 @@
                     <x-text-input id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" type="text" name="price" :value="old('price')" placeholder="(e.g) RM35" />
                     <x-input-error name="price"></x-input-error>
                 </div>
+                <!-- location -->
+                <div>
+                    <x-input-label for="Meet_up_Location" value="Meet up Location" />
+                    <x-text-input id="Meet_up_Location" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" type="text" name="product_name" :value="old('name')" />
+                    <x-input-error name="Meet_up_Location"></x-input-error>
+                </div>
                 <div class="bottom-0 left-0 flex justify-center w-full pb-4 mt-4 space-x-4 sm:absolute sm:px-4 sm:mt-0">
                     <button type="submit" class="w-full justify-center text-white bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">
                         Update
@@ -221,6 +227,12 @@
                     <x-input-label for="price" value="Product Price" />
                     <x-text-input id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" type="text" name="price" :value="old('price')" placeholder="(e.g) RM35" />
                     <x-input-error name="price"></x-input-error>
+                </div>
+                <!-- location -->
+                <div>
+                    <x-input-label for="Meet_up_Location" value="Meet up Location" />
+                    <x-text-input id="Meet_up_Location" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" type="text" name="product_name" :value="old('name')" />
+                    <x-input-error name="Meet_up_Location"></x-input-error>
                 </div>
                 <!-- Product Display Package -->
                 <div>

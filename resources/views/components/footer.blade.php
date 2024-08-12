@@ -7,13 +7,13 @@
             </a>
             <ul class="flex flex-wrap items-center text-sm font-medium text-gray-500 sm:space-x-6">
                 <li>
-                    <a href="#" class="hover:underline">About</a>
+                    <a href="#" class="hover:underline">How To Rent</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#" class="hover:underline">Return Policy</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Licensing</a>
+                    <a href="#" class="hover:underline">About Us</a>
                 </li>
                 <li>
                     <a href="#" class="hover:underline">Contact</a>
@@ -21,6 +21,6 @@
             </ul>
         </div>
         <hr class="my-4 border-gray-200 sm:mx-auto" />
-        <span class="block text-sm text-gray-500 text-center">© 2023 RentJerlaa. All Rights Reserved.</span>
+        <span class="block text-sm text-gray-500 text-center">© 2024 RentJerlaa. All Rights Reserved.</span>
     </div>
 </footer>

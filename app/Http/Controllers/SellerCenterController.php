@@ -42,6 +42,6 @@ class SellerCenterController extends Controller
 
     public function showSellerCenterPage()
     {
-        return view('seller.index');
+        return view('seller.product');
     }
 }

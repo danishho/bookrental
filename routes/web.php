@@ -49,3 +49,5 @@ Route::view('/admin/user', 'admin.user');
 Route::view('/seller/product', 'seller.product');
 Route::view('/seller/order', 'seller.order');
 Route::view('/order', 'order.index');
+Route::view('/order/index', 'order.index');
+Route::view('/order/product', 'order.product');

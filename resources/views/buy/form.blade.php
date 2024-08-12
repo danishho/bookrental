@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot:heading>Buy Form</x-slot:heading>
-    <div class="bg-blue-300 w-full max-w-lg mx-auto py-10 px-6 flex flex-col items-center rounded-md">
-        <x-page-heading>customer details</x-page-heading>
+    <div class="bg-orange-400 w-full max-w-lg mx-auto py-10 px-6 flex flex-col items-center rounded-md">
+        <x-page-heading>CUSTOMER DETAILS</x-page-heading>
         <form method="POST" action="/buy">
             @csrf
 
@@ -19,25 +19,44 @@
                 <x-input-error name="email"></x-input-error>
             </div>
 
-            <!-- PHOTO -->
+            <!-- Student ID Card -->
             <div class="mt-4">
-                <p class="block font-medium text-sm text-gray-700"> QR Payment</p>
-                <x-logo src="{{asset('images/banner.svg')}}" width="400" alt="fmdkpgm"/>
+                <x-input-label for="student_id" value="Student ID Card" />
+                <x-text-input id="student_id" class="block mt-1 w-full" type="text" name="student_id" :value="old('student_id')" required autofocus autocomplete="student_id" />
+                <x-input-error name="student_id"></x-input-error>
             </div>
 
-            <!-- payment prove -->
-            <div class="mt-4">
-                <x-input-label for="file" value="Payment Prove" />
-                <x-text-input id="file" class="block mt-1 w-full bg-white" type="file" name="file"  />
-                <x-input-error name="file"></x-input-error>
+            <!-- Order Summary and Meetups -->
+            <div class="mt-6 w-full bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Order Summary</h3>
+                <h4>Ice Cream -1</h4>
+                <p class=" text-gray-900 font-semibold mt-4">Total: RM20</p>
+
+                <h3 class="text-lg font-bold text-gray-800 mt-6 mb-2">Meetup Location: <span class="text-blue-500">PSN</span></h3>
             </div>
 
-            <div class="flex items-center justify-end mt-4">
-                <x-primary-button class="ms-4 bg-green-600">
+            <!-- Time and Date for Meetup -->
+            <div class="mt-6 w-full bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Time and Date for Meetup</h3>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-1">
+                        <x-input-label for="meetup_date" value="Date" />
+                        <x-text-input id="meetup_date" class="block w-full mt-1" type="date" name="meetup_date" required />
+                        <x-input-error name="meetup_date"></x-input-error>
+                    </div>
+                    <div class="flex-1">
+                        <x-input-label for="meetup_time" value="Time" />
+                        <x-text-input id="meetup_time" class="block w-full mt-1" type="time" name="meetup_time" required />
+                        <x-input-error name="meetup_time"></x-input-error>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end mt-6">
+                <x-primary-button class="ms-4 bg-orange-600 hover:bg-orange-700">
                     Submit
                 </x-primary-button>
             </div>
         </form>
     </div>
-
 </x-layout>

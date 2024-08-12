@@ -39,6 +39,6 @@
     <!-- Ads Container -->
     <div class="w-full lg:w-1/3 space-y-2">
         <img src="{{asset('images/static.jpg')}}" alt="Ad 1" class="w-full h-auto">
-        <img src="{{asset('images/ad3.jpg')}}" alt="Ad 2" class="w-full h-auto">
+        <img src="{{asset('images/static2.jpg')}}" alt="Ad 2" class="w-full h-auto">
     </div>
 </div>
