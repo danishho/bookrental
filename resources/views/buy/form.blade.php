@@ -2,13 +2,13 @@
     <x-slot:heading>Buy Form</x-slot:heading>
     <div class="bg-orange-400 w-full max-w-lg mx-auto py-10 px-6 flex flex-col items-center rounded-md">
         <x-page-heading>CUSTOMER DETAILS</x-page-heading>
-        <form method="POST" action="/buy">
-            @csrf
+        <form id="buyForm">
+{{--            @csrf--}}
 
             <!-- Name -->
             <div>
                 <x-input-label for="name" value="Name" />
-                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="username" />
                 <x-input-error name="name"></x-input-error>
             </div>
 
@@ -52,11 +52,29 @@
                 </div>
             </div>
 
-            <div class="flex items-center justify-end mt-6">
-                <x-primary-button class="ms-4 bg-orange-600 hover:bg-orange-700">
+            <div class="flex items-center justify-end mt-4">
+                <x-primary-button type="submit" class="ms-4 bg-orange-600 hover:bg-orange-700">
                     Submit
                 </x-primary-button>
             </div>
+            <x-modal.buy/>
         </form>
     </div>
+
 </x-layout>
+
+<script>
+    const form = document.getElementById('buyForm');
+    const modal = document.getElementById('popup-modal-2');
+    const closeModalButton = document.getElementById('closeModalButton');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();  // Prevent the default form submission
+        modal.classList.remove('hidden');  // Show the modal
+    });
+
+    closeModalButton.addEventListener('click', function() {
+        modal.classList.add('hidden');  // Hide the modal when "Okay" is clicked
+        form.submit();  // Optionally, submit the form after the modal is closed
+    });
+</script>

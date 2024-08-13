@@ -47,13 +47,7 @@
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 quantity
                             </th>
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                status
-                            </th>
 
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                Actions
-                            </th>
                         </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200 ">
@@ -71,14 +65,7 @@
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">1</div>
                             </td>
-                            <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <div class="text-base font-semibold text-gray-900 ">Pending</div>
-                            </td>
-                            <td class="p-4 space-x-2 whitespace-nowrap">
-                                <button type="button"  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-500 rounded-lg hover:bg-green-600 ">
-                                    Received
-                                </button>
-                            </td>
+
                         </tr>
 
                         {{--                        {{ end -}}--}}

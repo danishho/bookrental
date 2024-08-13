@@ -36,7 +36,7 @@
                                 username
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
-                                payment prove
+                                Student ID
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 Actions
@@ -62,10 +62,10 @@
                                 <div class="text-base font-semibold text-gray-900 ">Danish</div>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <a href="#">
-                                    <div class="text-base font-semibold text-gray-900 ">picture</div>
-                                </a>
+                                <div class="text-base font-semibold text-gray-900 ">ICS23-08-030</div>
                             </td>
+
+
 
                             <td class="p-4 space-x-2 whitespace-nowrap">
                                 <button type="button" id="deleteProductButton" data-drawer-target="drawer-delete-product-default" data-drawer-show="drawer-delete-product-default" aria-controls="drawer-delete-product-default" data-drawer-placement="right" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">

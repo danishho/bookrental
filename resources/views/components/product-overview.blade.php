@@ -2,16 +2,14 @@
     <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0">
         <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
-                <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg" alt="" />
-                <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg" alt="" />
+              <x-logo src="{{asset('images/watch.jpg')}}" width="400"/>
             </div>
 
             <div class="mt-6 sm:mt-8 lg:mt-0">
                 <h1
                     class="text-xl font-semibold text-gray-900 sm:text-2xl"
                 >
-                    Apple iMac 24" All-In-One Computer, Apple M1, 8GB RAM, 256GB SSD,
-                    Mac OS, Pink
+                    Tissot 1853 Watch
                 </h1>
                 <div class="mt-4 sm:items-center sm:gap-4 sm:flex">
                     <p
@@ -31,18 +29,15 @@
                     </a>
                 </div>
 
-                <hr class="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
+                <hr class="my-6 md:my-8 border-gray-200 " />
 
-                <p class="mb-6 text-gray-500 dark:text-gray-400">
-                    Studio quality three mic array for crystal clear calls and voice
-                    recordings. Six-speaker sound system for a remarkably robust and
-                    high-quality audio experience. Up to 256GB of ultrafast SSD storage.
+                <p class="mb-6 text-gray-700 ">
+                    A classic and elegant Tissot 1853 watch featuring a white dial with multiple subdials, encased in a polished metal frame and complemented by a brown leather strap.
+
                 </p>
 
-                <p class="text-gray-500 dark:text-gray-400">
-                    Two Thunderbolt USB 4 ports and up to two USB 3 ports. Ultrafast
-                    Wi-Fi 6 and Bluetooth 5.0 wireless. Color matched Magic Mouse with
-                    Magic Keyboard or Magic Keyboard with Touch ID.
+                <p class="text-gray-700 font-semibold ">
+                    Meet Up Location: PSN
                 </p>
             </div>
         </div>

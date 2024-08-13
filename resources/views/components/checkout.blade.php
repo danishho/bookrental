@@ -39,7 +39,7 @@
                             <path d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z" data-original="#000000"></path>
                         </svg>
                     </div>
-                    <h3 class="text-base font-bold text-gray-800 mt-auto">$120.00</h3>
+                    <h3 class="text-base font-bold text-gray-800 mt-auto">RM120</h3>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                             <path d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z" data-original="#000000"></path>
                         </svg>
                     </div>
-                    <h3 class="text-base font-bold text-gray-800 mt-auto">$70.00</h3>
+                    <h3 class="text-base font-bold text-gray-800 mt-auto">RM70</h3>
                 </div>
             </div>
 
@@ -119,20 +119,23 @@
                             <path d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z" data-original="#000000"></path>
                         </svg>
                     </div>
-                    <h3 class="text-base font-bold text-gray-800 mt-auto">$20.00</h3>
+                    <h3 class="text-base font-bold text-gray-800 mt-auto">RM20</h3>
                 </div>
             </div>
         </div>
 
         <div class="bg-white rounded-md px-4 py-6 h-max shadow-[0_2px_12px_-3px_rgba(6,81,237,0.3)]">
             <ul class="text-gray-800 space-y-4">
-                <li class="flex flex-wrap gap-4 text-sm font-bold">Total <span class="ml-auto">$206.00</span></li>
+                <li class="flex flex-wrap gap-4 text-sm font-bold">Total <span class="ml-auto">RM206</span></li>
                 <hr class="border-gray-300" />
 
             </ul>
 
             <div class="mt-8 space-y-2">
-                <button type="button" class="text-sm px-4 py-2.5 w-full font-semibold tracking-wide bg-gray-800 hover:bg-gray-900 text-white rounded-md">Buy Now</button>
+                <a href="/buy/product">
+                    <button type="button" class="text-sm px-4 py-2.5 w-full font-semibold tracking-wide bg-orange-600 hover:bg-orange-700 text-white rounded-md">Buy Now</button>
+                </a>
+
             </div>
 
 

@@ -36,6 +36,9 @@
                                 username
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
+                                Student ID
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 payment prove
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
@@ -58,6 +61,9 @@
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">Danish</div>
+                            </td>
+                            <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
+                                <div class="text-base font-semibold text-gray-900 ">ICS23-08-030</div>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <a href="#">

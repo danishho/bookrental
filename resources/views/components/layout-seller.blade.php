@@ -37,6 +37,12 @@
                 </a>
             </li>
             <li>
+                <a href="/seller/ads" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
+                    <x-logo src="{{asset('logos/ads.svg')}}" width="40"  class="rounded-none"/>
+                    <span class="flex-1 ms-1 whitespace-nowrap">Apply Advertisement</span>
+                </a>
+            </li>
+            <li>
                 <a href="/" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group">
                     <x-logo src="{{asset('logos/homepage.svg')}}" width="30"  class="rounded-none"/>
                     <span class="flex-1 ms-3 whitespace-nowrap">Homepage</span>

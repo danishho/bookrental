@@ -16,7 +16,7 @@ Route::post('/login', [SessionController::class, 'store']);
 Route::post('/logout', [SessionController::class, 'destroy']);
 
 Route::get('/admin',function (){
-    return view('admin.index');
+    return view('admin.book');
 });
 Route::view('/admin/book','admin.book');
 Route::get('/search', SearchController::class);
@@ -48,6 +48,8 @@ Route::view('/admin/user', 'admin.user');
 
 Route::view('/seller/product', 'seller.product');
 Route::view('/seller/order', 'seller.order');
+Route::view('/seller/ads', 'seller.ads');
 Route::view('/order', 'order.index');
 Route::view('/order/index', 'order.index');
 Route::view('/order/product', 'order.product');
+

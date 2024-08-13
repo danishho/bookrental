@@ -54,11 +54,11 @@
         <header class="bg-green-600 shadow">
             <div class="mx-auto max-w-7xl px-4 py-7 sm:px-6 lg:px-8 sm:flex sm:justify-between items-center">
                 <h1 class="text-4xl font-bold tracking-tight text-white">{{ $heading }}</h1>
-                @if(request()->is('buy'))
-                    <x-button href="/product/create" class="mt-4 sm:mt-0 hover:bg-blue-700 bg-blue-600 text-white hover:text-white ">
-                        Sell Product
-                    </x-button>
-                @endif
+{{--                @if(request()->is('buy'))--}}
+{{--                    <x-button href="/product/create" class="mt-4 sm:mt-0 hover:bg-blue-700 bg-blue-600 text-white hover:text-white ">--}}
+{{--                        Sell Product--}}
+{{--                    </x-button>--}}
+{{--                @endif--}}
 
             </div>
         </header>
