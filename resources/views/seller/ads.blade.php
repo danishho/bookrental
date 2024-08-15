@@ -105,11 +105,11 @@
 
                 <!-- Product Display Package -->
                 <div>
-                    <x-input-label for="package" value="Product Display Package" />
+                    <x-input-label for="package" value="Advertisement Display Package" />
                     <select id="package" name="package" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5">
-                        <option value="week">1 week (RM20)</option>
-                        <option value="month">1 month (RM50)</option>
-                        <option value="semester">1 semester (RM100)</option>
+                        <option value="week">1 week (RM10)</option>
+                        <option value="month">1 month (RM20)</option>
+                        <option value="semester">1 semester (RM50)</option>
                     </select>
                     <x-input-error name="package"></x-input-error>
                 </div>
@@ -165,9 +165,9 @@
                 <div>
                     <x-input-label for="package" value="Advertisement Display Package" />
                     <select id="package" name="package" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5">
-                        <option value="week">1 week (RM20)</option>
-                        <option value="month">1 month (RM50)</option>
-                        <option value="semester">1 semester (RM100)</option>
+                        <option value="week">1 week (RM10)</option>
+                        <option value="month">1 month (RM20)</option>
+                        <option value="semester">1 semester (RM50)</option>
                     </select>
                     <x-input-error name="package"></x-input-error>
                 </div>

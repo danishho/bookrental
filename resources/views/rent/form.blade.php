@@ -43,7 +43,7 @@
             <div class="mt-4">
                 <label class="inline-flex items-center">
                     <input type="checkbox" name="agreement" id="agreement" class="rounded border-gray-300 text-orange-600 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50" required>
-                    <span class="ml-2 text-sm font-semibold text-gray-900">I agree to provide goods/services in the best quality. All problems related to the product are under my responsibility.</span>
+                    <span class="ml-2 text-sm font-semibold text-gray-900">I agree to provide the book in the best condition. All issues related to the book during the rental period are my responsibility.</span>
                 </label>
                 <x-input-error name="agreement"></x-input-error>
             </div>

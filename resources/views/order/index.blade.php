@@ -58,11 +58,11 @@
                         {{--                        {{- range (index $.Site.Data "products") }}--}}
                         <tr class="hover:bg-gray-100 ">
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <x-logo src="{{asset('images/qr.jpg')}}"/>
+                                <x-logo src="{{asset('images/book1.jpg')}}"/>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <a href="#">
-                                    <div class="text-base font-semibold text-gray-900 ">picture</div>
+                                    <div class="text-base font-semibold text-gray-900 ">Module1</div>
                                 </a>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">

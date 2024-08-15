@@ -6,12 +6,12 @@
             <div class="flex gap-4 bg-white px-4 py-6 rounded-md shadow-[0_2px_12px_-3px_rgba(6,81,237,0.3)]">
                 <div class="flex gap-4">
                     <div class="w-28 h-28 max-sm:w-24 max-sm:h-24 shrink-0">
-                        <img src='https://readymadeui.com/images/watch1.webp' class="w-full h-full object-contain" />
+                        <img src='{{asset('images/n1.jpg')}}' class="w-full h-full object-contain" />
                     </div>
 
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h3 class="text-base font-bold text-gray-800">Stylish Golden Watch</h3>
+                            <h3 class="text-base font-bold text-gray-800">Shirt 1</h3>
                         </div>
 
                         <div class="mt-auto flex items-center gap-3">
@@ -46,12 +46,12 @@
             <div class="flex gap-4 bg-white px-4 py-6 rounded-md shadow-[0_2px_12px_-3px_rgba(6,81,237,0.3)]">
                 <div class="flex gap-4">
                     <div class="w-28 h-28 max-sm:w-24 max-sm:h-24 shrink-0">
-                        <img src='https://readymadeui.com/images/watch5.webp' class="w-full h-full object-contain" />
+                        <img src='{{asset('images/f3.jpg')}}' class="w-full h-full object-contain" />
                     </div>
 
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h3 class="text-base font-bold text-gray-800">Stylish Smart Watch</h3>
+                            <h3 class="text-base font-bold text-gray-800">Shirt 2</h3>
                         </div>
 
                         <div class="mt-auto flex items-center gap-3">
@@ -86,12 +86,12 @@
             <div class="flex gap-4 bg-white px-4 py-6 rounded-md shadow-[0_2px_12px_-3px_rgba(6,81,237,0.3)]">
                 <div class="flex gap-4">
                     <div class="w-28 h-28 max-sm:w-24 max-sm:h-24 shrink-0">
-                        <img src='https://readymadeui.com/images/sunglass6.webp' class="w-full h-full object-contain" />
+                        <img src='{{asset('images/n8.jpg')}}' class="w-full h-full object-contain" />
                     </div>
 
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h3 class="text-base font-bold text-gray-800">Round Glass</h3>
+                            <h3 class="text-base font-bold text-gray-800">Shirt 3</h3>
                         </div>
 
                         <div class="mt-auto flex items-center gap-3">

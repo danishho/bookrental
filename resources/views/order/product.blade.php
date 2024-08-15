@@ -47,6 +47,9 @@
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
                                 quantity
                             </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase ">
+                                Price
+                            </th>
 
                         </tr>
                         </thead>
@@ -55,15 +58,18 @@
                         {{--                        {{- range (index $.Site.Data "products") }}--}}
                         <tr class="hover:bg-gray-100 ">
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
-                                <x-logo src="{{asset('images/qr.jpg')}}"/>
+                                <x-logo src="{{asset('images/watch.jpg')}}"/>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <a href="#">
-                                    <div class="text-base font-semibold text-gray-900 ">picture</div>
+                                    <div class="text-base font-semibold text-gray-900 ">Tissot watch</div>
                                 </a>
                             </td>
                             <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
                                 <div class="text-base font-semibold text-gray-900 ">1</div>
+                            </td>
+                            <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap ">
+                                <div class="text-base font-semibold text-gray-900 ">RM1,249.99</div>
                             </td>
 
                         </tr>

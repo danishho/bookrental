@@ -1,5 +1,5 @@
 <div class="bg-green-600 w-full p-5 mt-5">
-    <h1 class="text-center text-white text-2xl font-bold">Find your Book by Course</h1>
+    <h1 class="text-center text-white text-2xl font-bold">Find Your Book By Course</h1>
     <div class="grid lg:grid-cols-4 gap-8 mt-1 border border-transparent w-full p-10">
         <a href="/dcs">
             <div class="bg-green-800 border border-transparent rounded-lg max-w-full font-bold text-white p-4 flex flex-col items-center h-full">

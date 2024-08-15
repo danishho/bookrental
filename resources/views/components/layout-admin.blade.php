@@ -49,6 +49,12 @@
 {{--                </a>--}}
 {{--            </li>--}}
             <li>
+                <a href="/admin/ads" class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
+                    <x-logo src="{{asset('logos/ads.svg')}}" width="40"  class="rounded-none"/>
+                    <span class="flex-1 ms-1 whitespace-nowrap">Advertisement</span>
+                </a>
+            </li>
+            <li>
                 <a href="/admin/user" class="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group">
                     <x-logo src="{{asset('logos/user.svg')}}" width="30"  class="rounded-none"/>
                     <span class="flex-1 ms-3 whitespace-nowrap">Users</span>

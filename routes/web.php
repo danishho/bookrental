@@ -45,6 +45,7 @@ Route::view('/admin/rent','admin.rent');
 Route::view('/admin/product', 'admin.product');
 Route::view('/admin/payment', 'admin.payment');
 Route::view('/admin/user', 'admin.user');
+Route::view('/admin/ads', 'admin.ads');
 
 Route::view('/seller/product', 'seller.product');
 Route::view('/seller/order', 'seller.order');
